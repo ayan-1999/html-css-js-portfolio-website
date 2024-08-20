@@ -61,6 +61,10 @@ a:hover {
 .logo {
   font-size: 2rem;
 }
+.logo img {
+  height: 100px;
+  width: 100px;
+}
 
 .logo:hover {
   cursor: default;
@@ -174,8 +178,11 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+ 
 }
-
+.section__pic-container img{
+  border-radius: 48px;
+}
 .section__text {
   align-self: center;
   text-align: center;
