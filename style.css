@@ -361,12 +361,12 @@ article .icon {
 }
  .text-container h1{
   text-align: center;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
  }
 
  .text-container p{
 margin-top: 4px;
-margin-bottom: 4px;
+margin-bottom: 8px;
 }
 .text-container p a{
   text-decoration: none;
@@ -375,6 +375,11 @@ margin-bottom: 4px;
 .text-container ul li{
   text-align: justify;
   margin-bottom: 4px;
+}
+.exp-des{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .highlight{
   font-weight: 800;
